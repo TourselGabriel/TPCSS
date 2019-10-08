@@ -1,0 +1,194 @@
+body
+{ 
+	background-color : RGB(0,128,128); /* Change la couleur en fond */
+	margin : 50px; /* place les marges autour */
+	z-index : 2; /* ordre d'affichage */
+	
+}
+
+div#tout
+{
+	background-color : RGB(211,211,211);/* Change la couleur en fond */
+	z-index : 1; /* ordre d'affichage */
+	max-width :1000px; /* largeur max */
+	max-height :900px; /* hauteur max */
+	
+}
+
+
+/* BANDEAU HAUT */
+
+
+div#haut
+{
+	background-color : RGB(169,169,169); /* Change la couleur en fond */
+	color : RGB(92,35,25); /* couleur texte */
+	text-align : center;
+	
+	
+}
+div#bandeau
+{
+	background-color : RGB(105,76,70); /* Change la couleur en fond */
+	color : white; /* couleur texte */
+	text-align : center;
+	height : 30px; /*hauteur */
+}
+
+
+/* ENCART DROITE */
+
+
+div#t1
+{
+	color : RGB(92,35,25); /* couleur texte */
+	text-align : center;
+	margin : 20px; /* place les marges autour */
+}
+div#t2
+{
+	color : RGB(92,35,25); /* couleur texte */
+	margin : 20px; /* place les marges autour */
+}
+div#p
+{
+	color : black; /* couleur texte */
+	margin : 20px; /* place les marges autour */
+	text-align: justify;
+	
+}
+div#p2
+{
+	color : black; /* couleur texte */
+	margin : 20px; /* place les marges autour */
+	text-align: justify;
+	
+}
+
+div#image
+{
+	float : left;
+	margin : 20px; /* place les marges autour */
+	box-shadow : 8px 8px 12px gray;
+	position : relative; /* gère la position de l'encart */
+	top : -15px;
+	
+	
+}
+div#droite
+{
+	position : relative; /* gère la position de l'encart */
+	left : 300px;
+	max-width : 670px; /* largeur max */
+	border-left : 1px dotted black;
+}
+
+
+/* ENCART GAUCHE */
+
+
+div#t1g
+{
+	position : relative; /* gère la position de l'encart */
+	left : 20px;
+	top : -700px;
+	max-width : 350px; /* largeur max */
+	color : RGB(92,35,25); /* couleur texte */
+	text-decoration: underline;
+
+}
+div#lien
+{
+	position : relative; /* gère la position de l'encart */
+	left : 20px;
+	top : -690px;
+	max-width : 350px; /* largeur max */
+}
+div#t2g
+{
+	position : relative; /* gère la position de l'encart */
+	left : 20px;
+	top : -680px;
+	max-width : 350px; /* largeur max */
+	color : RGB(92,35,25); /* couleur texte */
+	text-decoration: underline;
+
+}
+div#imagegauche
+{
+	position : relative; /* gère la position de l'encart */
+	left : 20px;
+	top : -670px;
+	margin : 10px; /* place les marges autour */
+	
+}
+div#t3g
+{
+	position : relative; /* gère la position de l'encart */
+	left : 20px;
+	top : -670px;
+	max-width : 350px; /* largeur max */
+	color : RGB(92,35,25); /* couleur texte */
+	text-decoration: underline;
+}
+div#lien2
+{
+	position : relative; /* gère la position de l'encart */
+	left : 20px;
+	top : -680px;
+	max-width : 350px; /* largeur max */
+}
+div#gauche
+{
+	position : relative; /* gère la position de l'encart */
+	top : 135px;
+}
+
+
+/* BANDEAU BAS */
+
+
+footer
+{
+	background-color : RGB(105,76,70); /* Change la couleur en fond */
+	z-index : 1; /* ordre d'affichage */
+	max-width :990px; /* largeur max */
+	height :130px; /*hauteur */
+	position : relative; /* gère la position de l'encart */
+	top : -90px;
+	column-count : 3;
+	color : white; /* couleur texte */
+	padding-left : 10px;
+}
+div#co1
+{
+	margin-top : 0px; /* place la marge du haut */
+	margin-bottom : 0px;
+	height :130px; /*hauteur */
+	
+}
+div#co2
+{
+	margin-top : 0px; /* place la marge du haut */
+	margin-bottom : 0px;
+	height :130px; /*hauteur */
+}
+div#co3
+{
+	margin-top : 0px; /* place la marge du haut */
+	margin-bottom : 0px;
+	height :130px; /*hauteur */
+}
+#lien
+{
+	color: white; /* couleur texte */
+}
+
+#part
+{
+	margin-top: 0px; /* place la marge du haut */
+}
+ul
+{
+	list-style : none;
+}
